@@ -11,10 +11,3 @@ I write end user documentation tailored for every day people who need to navigat
    about-me
    portfolio
    hire-me
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
