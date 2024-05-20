@@ -1,0 +1,7 @@
+name: Checkout
+description: Checkout the repository
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout
+      run: git checkout ${{ github.ref }}
