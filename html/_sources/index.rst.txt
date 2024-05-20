@@ -1,0 +1,13 @@
+===============
+Hi, I'm Nathan!
+===============
+
+I write end user documentation tailored for every day people who need to navigate complex systems. This page is currently under construction. 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+      
+   about-me
+   portfolio
+   hire-me
