@@ -21,7 +21,7 @@ release = '1.0'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
-    'sphinx_rtd_theme',
+    'sphinx.ext.todo',
 ]
 
 templates_path = ['_templates']
@@ -37,5 +37,14 @@ html_theme_options = {
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'furo'
 html_static_path = ['_static']
+html_theme_options = {
+    "sidebar_hide_name": True,
+    "light_css_variables": {
+        "color-brand-primary": "#007acc",
+        "color-brand-content": "#1a1a1a",
+        "font-stack": "Arial, sans-serif",
+        "font-stack--monospace": "Courier, monospace",
+    },
+}
